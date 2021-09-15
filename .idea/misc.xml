@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Carlos/AndroidStudioProjects/StarWarsKoinCoroutines/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/StarWarsKoinCoroutines/app/src/main/res/layout/character_item.xml" value="0.27853260869565216" />
         <entry key="..\:/Users/Carlos/AndroidStudioProjects/StarWarsKoinCoroutines/app/src/main/res/layout/fragment_all_characters.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Carlos/AndroidStudioProjects/StarWarsKoinCoroutines/app/src/main/res/layout/fragment_home.xml" value="0.291213768115942" />
       </map>
