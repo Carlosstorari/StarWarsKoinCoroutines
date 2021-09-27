@@ -21,18 +21,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        val retrofitService = StarWarsApi.getInstance()
-        val mainRepository = MainRepository(retrofitService)
-
-        /*viewModel = ViewModelProvider(this, MyViewModelFactory(mainRepository)).get(MainViewModel::class.java)
-
-        viewModel.charactersList.observe(this, {
-
-            Log.d("corourineTeste", it.results.toString() )
-            binding.list.text = it.results.toString()
-        })
-
-       viewModel.getAllCharacter()*/
     }
 }

@@ -1,2 +1,3 @@
 rootProject.name = "StarWarsKoinCoroutines"
 include ':app'
+include ':data'
