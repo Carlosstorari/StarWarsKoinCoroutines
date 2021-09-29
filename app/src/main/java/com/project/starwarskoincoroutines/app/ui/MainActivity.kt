@@ -2,17 +2,10 @@ package com.project.starwarskoincoroutines.app.ui
 
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentManager
-import androidx.lifecycle.ViewModelProvider
-import com.project.starwarskoincoroutines.R
 import com.project.starwarskoincoroutines.app.MainViewModel
-import com.project.starwarskoincoroutines.app.MyViewModelFactory
 import com.project.starwarskoincoroutines.databinding.ActivityMainBinding
 import com.project.starwarskoincoroutines.di.appModule
-import com.project.starwarskoincoroutines.resources.remote.api.StarWarsApi
-import com.project.starwarskoincoroutines.resources.repository.MainRepository
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

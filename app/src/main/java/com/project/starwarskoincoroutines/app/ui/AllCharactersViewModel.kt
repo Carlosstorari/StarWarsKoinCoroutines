@@ -2,11 +2,11 @@ package com.project.starwarskoincoroutines.app.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.project.starwarskoincoroutines.resources.remote.response.StarWarsResponse
-import com.project.starwarskoincoroutines.resources.repository.MainRepository
+import com.project.starwarskoincoroutines.data.remote.response.StarWarsResponse
+import com.project.starwarskoincoroutines.domain.UseCaseListCharacters
 import kotlinx.coroutines.*
 
-class AllCharactersViewModel constructor(private val mainRepository: MainRepository) : ViewModel() {
+class AllCharactersViewModel constructor(private val useCaseListCharacters: UseCaseListCharacters) : ViewModel() {
     val errorMessage = MutableLiveData<String>()
     val charactersList = MutableLiveData<StarWarsResponse>()
     var job: Job? = null
@@ -20,7 +20,7 @@ class AllCharactersViewModel constructor(private val mainRepository: MainReposit
             Dispatchers.Default
                 + exceptionHandler)
             .launch {
-                val response = mainRepository.getCharacters()
+                val response = useCaseListCharacters.getCharacters()
                 withContext(Dispatchers.Main) {
                     if (response.isSuccessful) {
                         charactersList.postValue(response.body())

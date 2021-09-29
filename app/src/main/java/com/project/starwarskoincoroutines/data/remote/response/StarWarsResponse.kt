@@ -1,4 +1,4 @@
-package com.project.starwarskoincoroutines.resources.remote.response
+package com.project.starwarskoincoroutines.data.remote.response
 
 import com.project.starwarskoincoroutines.domain.model.People
 
