@@ -1,9 +1,9 @@
-package com.project.starwarskoincoroutines.app.ui
+package com.project.starwarskoincoroutines.app.ui.allCharactersList
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.project.starwarskoincoroutines.data.remote.response.StarWarsResponse
-import com.project.starwarskoincoroutines.domain.UseCaseListCharacters
+import com.project.starwarskoincoroutines.domain.charactersList.UseCaseListCharacters
+import com.project.data.StarWarsResponse
 import kotlinx.coroutines.*
 
 class AllCharactersViewModel constructor(private val useCaseListCharacters: UseCaseListCharacters) : ViewModel() {

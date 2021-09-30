@@ -1,4 +1,4 @@
-package com.project.starwarskoincoroutines.app.ui
+package com.project.starwarskoincoroutines.app.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

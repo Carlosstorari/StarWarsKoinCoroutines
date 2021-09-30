@@ -6,7 +6,7 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.project.starwarskoincoroutines.app.ui.HomeFragment"
+        android:name="com.project.starwarskoincoroutines.app.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/allCharactersFragment"
-        android:name="com.project.starwarskoincoroutines.app.ui.AllCharactersFragment"
+        android:name="com.project.starwarskoincoroutines.app.ui.allCharactersList.AllCharactersFragment"
         android:label="fragment_all_characters"
         tools:layout="@layout/fragment_all_characters" />
 </navigation>

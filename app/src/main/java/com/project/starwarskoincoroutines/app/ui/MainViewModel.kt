@@ -1,4 +1,4 @@
-package com.project.starwarskoincoroutines.app
+package com.project.starwarskoincoroutines.app.ui
 
 
 import androidx.lifecycle.ViewModel

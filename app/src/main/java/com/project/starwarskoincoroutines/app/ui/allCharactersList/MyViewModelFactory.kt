@@ -1,9 +1,8 @@
-package com.project.starwarskoincoroutines.app
+package com.project.starwarskoincoroutines.app.ui.allCharactersList
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.project.starwarskoincoroutines.app.ui.AllCharactersViewModel
-import com.project.starwarskoincoroutines.domain.UseCaseListCharacters
+import com.project.starwarskoincoroutines.domain.charactersList.UseCaseListCharacters
 import java.lang.IllegalArgumentException
 
 class MyViewModelFactory constructor(private val repository:

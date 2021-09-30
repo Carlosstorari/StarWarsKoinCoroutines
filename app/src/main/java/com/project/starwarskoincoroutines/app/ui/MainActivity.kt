@@ -3,7 +3,8 @@ package com.project.starwarskoincoroutines.app.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.project.starwarskoincoroutines.app.MainViewModel
+import com.project.data.dataModule
+import com.project.domain.domainModule
 import com.project.starwarskoincoroutines.databinding.ActivityMainBinding
 import com.project.starwarskoincoroutines.di.appModule
 import org.koin.android.ext.koin.androidContext
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         startKoin {
             androidLogger()
             androidContext(this@MainActivity)
-            modules(appModule)
+            modules(appModule, domainModule, dataModule)
         }
     }
 }

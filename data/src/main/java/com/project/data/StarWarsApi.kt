@@ -1,6 +1,5 @@
-package com.project.starwarskoincoroutines.data.remote.api
+package com.project.data
 
-import com.project.starwarskoincoroutines.data.remote.response.StarWarsResponse
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

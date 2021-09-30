@@ -1,10 +1,10 @@
-package com.project.starwarskoincoroutines.app.ui.adapter
+package com.project.starwarskoincoroutines.app.ui.allCharactersList.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.project.starwarskoincoroutines.databinding.CharacterItemBinding
-import com.project.starwarskoincoroutines.domain.model.People
+import com.project.data.People
 
 class CharacterAdapter(private val list: List<People>) :
     RecyclerView.Adapter<CharacterAdapter.ViewHolder>() {

@@ -1,4 +1,4 @@
-package com.project.starwarskoincoroutines.app.ui
+package com.project.starwarskoincoroutines.app.ui.allCharactersList
 
 import android.os.Bundle
 import android.util.Log
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.project.starwarskoincoroutines.app.ui.adapter.CharacterAdapter
+import com.project.starwarskoincoroutines.app.ui.allCharactersList.adapter.CharacterAdapter
 import com.project.starwarskoincoroutines.databinding.FragmentAllCharactersBinding
 import org.koin.android.viewmodel.ext.android.viewModel
 
